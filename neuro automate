@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NeuroAutomation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #ffffff;
+    }
+    header {
+      text-align: center;
+      padding: 60px 20px;
+    }
+    header h1 {
+      font-size: 64px;
+      color: #00e6e6;
+      text-shadow: 0 0 20px #00ffcc;
+      margin: 0;
+    }
+    header p {
+      font-size: 20px;
+      margin-top: 10px;
+      color: #d9faff;
+    }
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 40px 20px;
+    }
+    .category {
+      background: #203a43;
+      padding: 20px;
+      border-radius: 10px;
+      width: 300px;
+      margin: 15px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.3);
+      text-align: center;
+    }
+    .category h2 {
+      color: #00ffcc;
+      margin-bottom: 15px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      margin: 8px 0;
+      font-size: 16px;
+    }
+    .price {
+      color: #ffd700;
+      font-weight: bold;
+    }
+    .cta-btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: #00e6e6;
+      color: #203a43;
+      font-weight: bold;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .cta-btn:hover {
+      background: #ffd700;
+      color: #000;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #0f2027;
+      color: #aaa;
+    }
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 42px;
+      }
+      header p {
+        font-size: 16px;
+      }
+      .category {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>NeuroAutomation</h1>
+    <p>Smart Minds, Automated Futures</p>
+    <a href="#services" class="cta-btn">Get Started</a>
+  </header>
+
+  <section class="services" id="services">
+    <div class="category">
+      <h2>Free Services</h2>
+      <ul>
+        <li>Basic Workflow Automation <span class="price">₹0</span></li>
+        <li>AI Chatbot (Limited Queries) <span class="price">₹0</span></li>
+        <li>Data Visualization (Basic) <span class="price">₹0</span></li>
+        <li>Trial Dashboard Access <span class="price">₹0</span></li>
+      </ul>
+      <a href="#" class="cta-btn">Try Free</a>
+    </div>
+    <div class="category">
+      <h2>Paid Services</h2>
+      <ul>
+        <li>Advanced AI Integration <span class="price">₹4,999/month</span></li>
+        <li>Predictive Analytics & Reports <span class="price">₹6,999/month</span></li>
+        <li>Enterprise Workflow Management <span class="price">₹9,999/month</span></li>
+        <li>Custom Automation Solutions <span class="price">₹50,000+</span></li>
+      </ul>
+      <a href="#" class="cta-btn">Buy Now</a>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 NeuroAutomation | Powered by AI & Automation
+  </footer>
+</body>
+</html>
